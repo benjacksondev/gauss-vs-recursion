@@ -18,7 +18,7 @@ int main() {
     printf("Input: ");
     scanf("%d", &n);
 
-    printf( "The triangular is made up of %d numbers\n", gauss(n));
+    printf( "The triangular is made up of %d dots\n", gauss(n));
 
     return 0;
 }
