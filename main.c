@@ -1,4 +1,4 @@
-#include <iostream>
+#include <stdio.h>
 
 int triangle(int n) {
     if (n == 0) {
@@ -15,10 +15,10 @@ int gauss(int n) {
 int main() {
     int n;
 
-    std::cout << "Input: ";
-    std::cin >> n;
+    printf("Input: ");
+    scanf("%d", &n);
 
-    std::cout << std::endl <<  gauss(n);
+    printf( "The triangular is made up of %d numbers\n", gauss(n));
 
     return 0;
 }
